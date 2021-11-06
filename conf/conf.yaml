@@ -1,0 +1,21 @@
+# 配置文件
+
+
+Server:
+  Ip: "" #这是服务ip,留空代表本机
+  Port: "80" #服务端口号
+  ReadTimeout: 10 #web服务请求延迟,单位为秒
+  WriteTimeout: 10 #web服务响应延迟，单位为秒
+
+VxPush:
+  Appid: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" #appID
+  Secret: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" #appsecret
+  Templateid: "tmsxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" #模板ID
+  Url: "https://kosakd.top" #推送到微信模板消息中的url，自定义
+
+Mysql:
+  Addr: "localhost:3306" #mysql服务连接的id和端口
+  User: "kosakd" #mysql的用户名
+  Passowrd: "kosakd" #mysql的用户密码
+  DbName: "testpush" #mysql的指定数据库名
+  

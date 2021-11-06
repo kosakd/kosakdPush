@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/css/sms.css">
+    <title>KosakdPush(推送加)微信推送消息直达</title>  
+</head>
+
+<body>
+<div class="push-container">
+
+    <div class="push-title">{{.MsgTitle}}</div>
+    <div class="push-date">
+        <span class="push-auth">KosakdPush &nbsp;&nbsp;</span>
+        
+        <span>{{.MsgTime}}</span>
+    </div>
+    <div class="push-cont-wrap">
+        <div class="push-cont">{{.Msg}}</div>
+    </div>
+    
+
+    <div class="ad">
+        <a href="#">预留广告位,招商中...</a>
+    </div>
+</div>
+</body>
+
+</html>
