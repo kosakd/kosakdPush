@@ -125,6 +125,20 @@ INSERT INTO `userpush` VALUES ('kosakd', 'o-xxxxxx');
 
 
 
+- 编译运行
+
+  ```
+  git clone https://github.com/kosakd/kosakdPush.git
+  cd kosakdPush
+  linux:
+  go env -w GOOS=linux
+  go build -o kosakdPush main.go
+  chmod 777 kosakdPush&&./kosakdPush
+  windows:
+  go env -w GOOS=windows
+  go build -o kosakdPush.exe main.go
+  kosakdPush.exe
+  ```
 
 
 
